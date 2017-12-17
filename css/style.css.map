@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAAA,EAAG;EACD,KAAK,EAAE,KAAK;EACZ,OAAO,EAAE,IAAI;;AAEf,IAAK;EACH,UAAU,EAAE,KAAK",
+"sources": ["../sass/import_sass/head.scss"],
+"names": [],
+"file": "style.css"
+}

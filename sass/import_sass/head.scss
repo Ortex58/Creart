@@ -1,6 +1,35 @@
 @import url("https://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css");
+@font-face {
+font-family: 'PF Agora Slab Pro';
+src: url('../font/pfagoraslabpro.ttf') format('ttf');
+font-weight: normal;
+font-style: normal;
+}
+body {
+  font-family: "PF Agora Slab Pro";
+}
 header, section {
-  margin: 0, auto;
+  margin: 0 auto;
+}
+header {
+  background: #f4f7f9;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 100;
+  transition: all 1500ms cubic-bezier(0.395, 0.425, 0.015, 1);
+}
+.navbar-expand-lg>.container, .navbar-expand-lg>.container-fluid {
+  height: 64px;
+}
+.navbar-brand {
+  position: relative;
+  width: 124px;
+  bottom: 10px;
+  img {
+    width: 100%;
+  }
 }
 
 .navbar-light .navbar-nav .my-link{
@@ -9,7 +38,9 @@ header, section {
     color: #92d819;
   }
 }
-
+.screen1 {
+  margin-top: 91px;
+}
 .lestSide {
   padding-left: 40px;
   h3 {
@@ -39,7 +70,7 @@ header, section {
     font-weight: 400;
     line-height: 22px;
     text-transform: uppercase;
-    /* Text style for "B, utton" */
+    border: none;
     letter-spacing: 0.7px;
   }
 }
@@ -166,7 +197,7 @@ footer {
             color: #3b3939;
             font-family: "PF Agora Slab Pro";
             font-size: 14px;
-            font-weight: 500;
+            font-weight: 400;
             line-height: 30px;
             text-transform: uppercase;
           }
@@ -222,7 +253,7 @@ footer {
             color: #3b3939;
             font-family: "PF Agora Slab Pro";
             font-size: 14px;
-            font-weight: 500;
+            font-weight: 400;
             line-height: 30px;
             text-transform: uppercase;
           }
@@ -242,7 +273,7 @@ footer {
           color: #3b3939;
           font-family: "PF Agora Slab Pro";
           font-size: 14px;
-          font-weight: 500;
+          font-weight: 400;
           line-height: 30px;
           text-transform: uppercase;
         }

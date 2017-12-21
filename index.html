@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -8,12 +9,15 @@
   <link rel="stylesheet" href="css/style.css">
 
 </head>
+
 <body>
 <!--todo Початок Сайту-->
-  <header>
-   <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+<header id="div">
+  <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
     <div class="container">
-      <a class="navbar-brand js-scroll-trigger" href="#"><img src="img/logo.png" alt="logo"></a>
+      <a class="navbar-brand js-scroll-trigger" href="#">
+        <img src="img/logo.png" alt="logo">
+      </a>
       <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -31,12 +35,12 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger my-link" href="#contact">Контакты</a>
           </li>
-          <ul class="navbar-nav ml-auto nav-icon">
-            <li class="nav-item">
+          <!-- Іконки в меню -->
+          <li class="nav-item">
             <a class="nav-link js-scroll-trigger my-link" href="#contact"><i class="fa fa-shopping-cart" aria-hidden="true"></i></a>
           </li>
           <li class="nav-item">
-            <a class="nav-link js-scroll-trigger my-link" href="#contact"><i class="fa fa-user-o" aria-hidden="true"></i></a>
+            <a class="nav-link js-scroll-trigger my-link" href="#contact"><i class="fa fa-user" aria-hidden="true"></i></a>
           </li>
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger my-link" href="#contact"><i class="fa fa-search" aria-hidden="true"></i></a>
@@ -44,89 +48,89 @@
           <li class="nav-item">
             <a class="nav-link js-scroll-trigger my-link" href="#contact"><i class="fa fa-phone" aria-hidden="true"></i></a>
           </li>
-          </ul>
-          
         </ul>
       </div>
     </div>
   </nav>
 </header>
+<!--todo Кінець heder-->
 
+
+<!--todo Початок Каруселі-->
 <section class="container screen1">
- 
-   <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
-  <ol class="carousel-indicators">
-    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
-    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
-
-  </ol>
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-      <div class="row align-items-center">
-        <div class="lestSide col-xl-5">
-          <h3>Moto</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <button>Button</button>
-        </div>
-        <div class="rightSide col-xl-7">
-          <img src="img/rightSIdeImg.gif" alt="rightSIdeImg">
-        </div>
-      </div>
-  </div>
-  <div class="carousel-item">
-      <div class="row align-items-center">
-        <div class="lestSide col-xl-5">
-          <h3>Moto</h3>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-          <button>Button</button>
-        </div>
-        <div class="rightSide col-xl-7">
-          <img src="img/rightSIdeImg.gif" alt="rightSIdeImg">
+  <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel" data-interval="false">
+    <ol class="carousel-indicators">
+      <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+      <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+    </ol>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <div class="row align-items-center">
+          <div class="lestSide col-xl-5">
+            <h3>Moto</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <button>Button</button>
+          </div>
+          <div class="rightSide col-xl-7">
+            <img src="img/rightSIdeImg.gif" alt="rightSIdeImg">
+          </div>
         </div>
       </div>
+      <div class="carousel-item">
+        <div class="row align-items-center">
+          <div class="lestSide col-xl-5">
+            <h3>Moto</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <button>Button</button>
+          </div>
+          <div class="rightSide col-xl-7">
+            <img src="img/rightSIdeImg.gif" alt="rightSIdeImg">
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
   </div>
-  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
- 
 </section>
+<!--todo Кінець каруселі-->
 
+<!--todo Контент Авторських товарів-->
 <section class="container">
   <div class="row align-items-center screen2">
     <div class="screen2__leftSide col-xl-6">
-      <div class="screen2__leftSide__img">
-        <img src="img/screen2.jpg">
+      <div class="screen2__leftSide__img text-center">
+        <img src="img/screen2.jpg" alt="screen2">
       </div>
     </div>
     <div class="screen2__rightSide col-xl-6">
       <h3>Авторские товары</h3>
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
       <div class="screen2__rightSide__link justify-content-between ">
-        <a href="#">Посмотреть <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
+        <a href="#">Посмотреть <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
         <img src="img/img1.png" alt="img1">
       </div>
     </div>
-    
   </div>
 </section>
+<!--todo Кінець Контент Авторських товарів-->
 
+<!--todo Контент Художніх товарів-->
 <section class="container">
   <div class="row screen3">
     <div class="screen3__leftSide col-xl-6">
       <img src="img/img2.png" alt="img2">
       <h3>Художественные товары и хобби</h3>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
+      <div class="screen3__leftSide__link d-flex justify-content-between">
+        <a href="#">Посмотреть <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
 
-       irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.</p>
-       <div class="screen3__leftSide__link d-flex justify-content-between">
-        <a href="#">Посмотреть <i class="fa fa-arrow-right" aria-hidden="true"></i></a>
-       
       </div>
     </div>
     <div class="screen3__rightSide d-flex justify-content-center col-xl-6">
@@ -136,46 +140,46 @@
     </div>
   </div>
 </section>
+<!--todo Кінець контенту Художніх товарів-->
 
 
 
-
-
-<section class="container">
+<!--todo Контент Інстаблок-->
+<div class="container">
   <div class="grid row">
-      <div class="grid-sizer"></div>
-      <div class="grid-item"></div>
-      <div class="grid-item grid-item--width2 grid-item--height2"></div>
-      <div class="grid-item grid-item--height3"></div>
-      <div class="grid-item grid-item--height2"></div>
-      <div class="grid-item grid-item--width3"></div>
-      <div class="grid-item"></div>
-      <div class="grid-item"></div>
-      <div class="grid-item grid-item--height2"></div>
-      <div class="grid-item grid-item--width2 grid-item--height3"></div>
-      <div class="grid-item"></div>
-      <div class="grid-item grid-item--height2"></div>
-      <div class="grid-item"></div>
-      <div class="grid-item grid-item--width2 grid-item--height2"></div>
-      <div class="grid-item grid-item--width2"></div>
-      <div class="grid-item"></div>
-      <div class="grid-item grid-item--height2"></div>
-      <div class="grid-item"></div>
-      <div class="grid-item"></div>
-      <div class="grid-item grid-item--height3"></div>
-      <div class="grid-item grid-item--height2"></div>
-      <div class="grid-item"></div>
-      <div class="grid-item"></div>
-      <div class="grid-item grid-item--height2"></div>
-    </div>
-</section>
-
-    
-
+    <div class="grid-sizer"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item grid-item--width2 grid-item--height2"></div>
+    <div class="grid-item grid-item--height3"></div>
+    <div class="grid-item grid-item--height2"></div>
+    <div class="grid-item grid-item--width3"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item grid-item--height2"></div>
+    <div class="grid-item grid-item--width2 grid-item--height3"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item grid-item--height2"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item grid-item--width2 grid-item--height2"></div>
+    <div class="grid-item grid-item--width2"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item grid-item--height2"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item grid-item--height3"></div>
+    <div class="grid-item grid-item--height2"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item"></div>
+    <div class="grid-item grid-item--height2"></div>
+  </div>
+</div>
+<!--todo Кінецт контенту Інстаблок-->
 
 
 
 
+
+<!--todo Footer-->
 <footer>
   <div class="container footer">
     <div class="row">
@@ -190,13 +194,13 @@
           <h4 class="col-xl-12">Поддержка:</h4>
         </div>
         <div class="row column2__row">
-          <ul class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-6 text-right">
+          <ul class="col-xl-3 col-lg-6 col-md-6 col-sm-6 col-6 text-left">
             <li><a href="#">О нас</a></li>
             <li><a href="#">Контакты</a></li>
             <li><a href="#">Оплата</a></li>
             <li><a href="#">Гарантии</a></li>
           </ul>
-           <ul class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 text-left">
+          <ul class="col-xl-6 col-lg-6 col-md-6 col-sm-6 col-6 text-left">
             <li><a href="#">Доставка</a></li>
             <li><a href="#">Сотрудничество</a></li>
             <li><a href="#">Политика конфиденциальности</a></li>
@@ -206,7 +210,7 @@
       </div>
       <div class="column3 col-xl-2">
         <div class="row column3__lang">
-          <div class="column3__lang__option">Язык: 
+          <div class="column3__lang__option">Язык:
             <i class="fa fa-circle" aria-hidden="true"></i>
             <select>
               <option>Русский</option>
@@ -217,18 +221,20 @@
           <h4>Следи за нами:</h4>
         </div>
         <div class="row column3__social">
-          <a href="#"><img src="img/facebook.png"></a>
-          <a href="#"><img src="img/insagram.png"></a>
-          <a href="#"><img src="img/youtube.png"></a>
-          <a href="#"><img src="img/viber.png"></a>
+          <a href="#"><img src="img/facebook.png" alt="facabook"></a>
+          <a href="#"><img src="img/insagram.png" alt="instagram"></a>
+          <a href="#"><img src="img/youtube.png" alt="youtube"></a>
+          <a href="#"><img src="img/viber.png" alt="viber"></a>
         </div>
         <div class="row column3__pay">
-          <a href="#"><img src="img/visa.png"></a>
-          <a href="#"><img src="img/masretcard.png"></a>
+          <a href="#"><img src="img/visa.png" alt="visa"></a>
+          <a href="#"><img src="img/masretcard.png" alt="mastercard"></a>
         </div>
       </div>
       <div class="column4 col-xl-2">
-        <div class="row column4__title"><h4>График Работы:</h4></div>
+        <div class="row column4__title">
+          <h4>График Работы:</h4>
+        </div>
         <div class="row column4__workTime">
           <table class="tg">
             <tr>
@@ -248,14 +254,15 @@
       </div>
       <div class="column5 col-xl-2">
         <div class="row column5__map">
-          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d28279.685164157105!2d24.034230400717135!3d49.845495005658925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1suk!2sua!4v1513530540425" width="250" height="150" frameborder="0" style="border:0" allowfullscreen></iframe>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d28279.685164157105!2d24.034230400717135!3d49.845495005658925!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1suk!2sua!4v1513530540425" width="250" height="150" style="border:0"
+                  allowfullscreen></iframe>
         </div>
       </div>
     </div>
   </div>
 </footer>
+<!--todo End of the Footer-->
 
-       
 <!--todo Кінець Сайту-->
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
@@ -265,4 +272,5 @@
 <script src="js/index.js"></script>
 
 </body>
+
 </html>

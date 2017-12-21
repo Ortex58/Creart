@@ -37,6 +37,23 @@ header {
   .navbar-light .navbar-nav .my-link:hover {
     color: #92d819; }
 
+.hiden {
+  display: none; }
+
+.nav-item {
+  position: relative; }
+  .nav-item a .search {
+    position: absolute;
+    width: 200px;
+    right: 0px;
+    top: 60px; }
+    .nav-item a .search input[type="text"] {
+      width: 200px;
+      height: 29px; }
+    .nav-item a .search span .btn-search {
+      height: 29px;
+      padding: 0 5px 0 5px; }
+
 .screen1 {
   margin-top: 91px; }
 

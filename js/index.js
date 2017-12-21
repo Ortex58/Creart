@@ -22,3 +22,13 @@ $(window).scroll(function(){
 			$('#div').css({"background":"url(http://www.fonstola.ru/pic/201111/1366x768/fonstola.ru-55713.jpg);"});
 		}*/
 	});
+var search = document.querySelector('#search');
+var searchForm = document.querySelector('.search');
+search.onclick = function(e) {
+	if (searchForm.classList.contains('hiden')) {
+		searchForm.classList.remove('hiden');	
+	} else {
+		searchForm.classList.add('hiden');	
+	}
+	
+}
